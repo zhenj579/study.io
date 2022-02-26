@@ -1,0 +1,61 @@
+body{
+    background-image: linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    
+}
+h1{
+    text-align: center;
+}
+#MainBox{
+    display: flex;
+    justify-content: center;
+}
+#PlayersBox{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#Players{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+}
+.PlayerIcon{
+    border-radius: 50%;
+    padding-top: 10px;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+}
+#MakeLobbyAndCards{
+    width: 50%;
+}
+.vl{
+
+    border-left: 6px solid black;
+    
+    height: 80%;
+    margin-top: 1%;
+}
+.TermDiv{
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 2%;
+    height: 100px;
+
+}
+.term{
+    width: 30%;
+    text-align: center;
+}
+.def{
+    width: 70%;
+    text-align: center;
+}
